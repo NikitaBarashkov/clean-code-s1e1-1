@@ -24,11 +24,15 @@ body {
   }
 }
 
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
 
 
 
 /* Basic Style */
-body {
+/* body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -54,7 +58,8 @@ body {
     display: block;
     width: 500px;
     margin: 0 auto 0;
-}
+} */
+
 .task {
     width: 56%;
     display: inline-block;
@@ -87,7 +92,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='new-task'] {
+label[for="new-task"] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -113,7 +118,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }

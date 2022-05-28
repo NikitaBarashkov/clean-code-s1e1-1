@@ -29,8 +29,84 @@ body {
   margin: 0 auto;
 }
 
+.task {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1
+}
+
+.task-row-wrapper {
+    display: flex;
+}
+
+#incomplete-tasks,
+#completed-tasks {
+  margin: 0;
+  padding: 0px;
+}
+
+.edit,
+.delete {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+.edit:hover,
+.delete:hover {
+    color: #3a3A3a;
+}
+
+.name-stage-task, 
+.add-task-label {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.add-task-label {
+  display: block;
+  margin: 0 0 20px;
+}
+.for-input {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 21px;
+    padding: 0 9px;
+    border: 1px solid #dDd;
+    background: #FFF;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+    width: 56%;
+}
+.for-input:focus {
+    color: #333;
+}
 
 
+
+
+/* button {
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+button:hover {
+    color: #3a3A3a;
+} */
 /* Basic Style */
 /* body {
     background-color: #f8f8f8;
@@ -60,25 +136,31 @@ body {
     margin: 0 auto 0;
 } */
 
-.task {
+/* .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
+
 .task-row-wrapper {
     display: flex;
-}
-ul {
+} */
+/* ul {
     margin:0;
     padding: 0px;
-}
-li, h3 {
+} */
+
+
+/* li, h3 {
     list-style:none;
-}
-input,button{
+} */
+
+/* input,button{
     outline:none;
-}
-button {
+} */
+
+/* button {
     background: none;
     border: 0px;
     color: #888;
@@ -89,9 +171,9 @@ button {
 }
 button:hover {
     color: #3a3A3a;
-}
+} */
 /* Heading */
-h3,
+/* h3,
 label[for="new-task"] {
     color: #333;
     font-weight: 700;
@@ -100,8 +182,8 @@ label[for="new-task"] {
     padding: 30px 0 10px;
     margin: 0;
     text-transform: uppercase;
-}
-input[type="text"] {
+} */
+/* input[type="text"] {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -115,13 +197,13 @@ input[type="text"] {
 }
 input[type="text"]:focus {
     color: #333;
-}
+} */
 
 /* New Task */
-label[for="new-task"] {
+/* label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
-}
+} */
 input#new-task {
     width: 318px;
 }
